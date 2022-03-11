@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #2d3436;
+}
+.keys {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.key {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border: 3px solid black;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.playing {
+  border-color: #ffc600;
+  box-shadow: 0px 0px 10px #ffc600;
+  transform: scale(1.1);
+}
+.key kbd {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: white;
+}
+.key span {
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ffc600;
+}
